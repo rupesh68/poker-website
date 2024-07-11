@@ -1,38 +1,24 @@
-import BigImgCard from "./bigimgcard";
-import Card from "./card";
-import Gallary from "./gallary";
-import Hero from "./hero";
-import ImgAndSideContent from "./imgandsidecontent";
-import ImgCarousel from "./imgcarousel";
-import Carousel from "./imgcorousel2";
-import ImgCarousel2 from "./imgcorousel2";
-import ImgWithContent from "./imgwithcontent";
-import List from "./list";
-import Section from "./section1";
-import BgVideo from "./video";
+import Card from "./imgcard";
+import Section4 from "./section4";
+import Section5 from "./section5";
+import Section6 from "./section6";
+import BgVideo from "./herovideo";
+import ImgDance from "./imgDance";
+
+import Section7 from "./section7";
 
 export default function Main2() {
   return (
     <>
-    <div className="bg-black">
-    <Hero />
-      {/* <BgVideo /> */}
-
-      
-      {/* <Card /> */}
-   
-      {/* <BigImgCard/> */}
-      {/* <ImgWithContent/> */}
-       
-      {/* <ImgAndSideContent/> */}
-      {/* <ImgCarousel/> */}
-      {/* <ImgCarousel2/> */}
-      {/* <Carousel /> */}
-      {/* <Section/> */}
-      {/* <List/> */}
-      {/* <Gallary/> */}
-    </div>
-      
+      <div className="bg-gradient-to-r from-violet-800 to-yellow-400">
+        <BgVideo />
+        <Card />
+        <Section4 />
+        <Section5 />
+        <Section6 />
+        <ImgDance />
+        <Section7 />
+      </div>
     </>
   );
 }

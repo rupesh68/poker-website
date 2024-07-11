@@ -1,17 +1,3 @@
-// export default function Hero() {
-//     return (
-//       <>
-//         <div className="h-screen text-white text-center grid bg-cover bg-[url('/pokerimages2/hero.jpg')] animate-zoom-in-out">
-//           <div className="col-start-1 row-start-1 bg-gray-800 bg-opacity-0 w-full h-full"></div>
-//           <div className="col-start-1 row-start-1 mx-auto my-auto animate-fade-in-out">
-//             <h1 className="font-bold text-2xl">Hero Message</h1>
-//             <p>Something interesting about hero message</p>
-//           </div>
-//         </div>
-//       </>
-//     );
-//   }
-
 export default function Hero() {
   return (
     <>

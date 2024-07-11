@@ -1,4 +1,4 @@
-import BgVideo from "../poker2/video";
+import BgVideo from "../poker2/herovideo";
 import Company from "./company";
 import Feature from "./feature";
 import Hero from "./hero";

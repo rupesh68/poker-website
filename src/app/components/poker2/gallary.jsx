@@ -12,7 +12,7 @@ export default function Gallary() {
             >
               <picture>
                 <img
-                  src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
+                  src="/pokerimages2/gallaryimg1.jpg"
                   loading="lazy"
                   alt="Photo by Minh Pham"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -32,7 +32,7 @@ export default function Gallary() {
             >
               <picture>
                 <img
-                  src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=1000"
+                  src="/pokerimages2/gallaryimg2.jpg"
                   loading="lazy"
                   alt="Photo by Magicle"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -52,7 +52,7 @@ export default function Gallary() {
             >
               <picture>
                 <img
-                  src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=1000"
+                  src="/pokerimages2/gallaryimg3.jpg"
                   loading="lazy"
                   alt="Photo by Martin Sanchez"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
@@ -72,7 +72,7 @@ export default function Gallary() {
             >
               <picture>
                 <img
-                  src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
+                  src="/pokerimages2/gallaryimg4.jpg"
                   loading="lazy"
                   alt="Photo by Lorenzo Herrera"
                   className="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
