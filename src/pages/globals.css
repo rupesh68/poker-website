@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.cards:hover .card:not(:hover) {
+/* .cards:hover .card:not(:hover) {
     @apply blur-sm transform scale-95;
   }
 
@@ -23,3 +23,20 @@
       transform: rotateY(180deg);
     }
   }
+
+  .pokerbtn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(252, 70, 100);
+    transform: translateX(-100%);
+    transition: all 0.3s;
+    z-index: -1;
+  }
+  
+  .pokerbtn:hover::before {
+    transform: translateX(0);
+  } */

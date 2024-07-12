@@ -18,7 +18,7 @@ const card = [
 
 export default function Section4() {
   return (
-    <main className="relative bg-cover bg-center" style={{ backgroundImage: 'url(/pokerimages2/card1.jpg)' }}>
+    <main className="relative bg-cover bg-center" style={{ backgroundImage: 'url(/pokerimages2/gallaryi.jpg)' }}>
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-black to-transparent"></div>
       <div className="relative max-w-screen-xl mx-auto sm:p-0 lg:p-5 sm:p-10 md:p-16">

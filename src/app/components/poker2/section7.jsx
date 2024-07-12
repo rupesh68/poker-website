@@ -24,8 +24,9 @@ export default function Section7() {
   return (
     <main className="max-w-screen-xl mx-auto sm:p-0 lg:p-5 sm:p-10 md:p-16">
       <Heading
-        name="Frequently Asked Questions"
-        title="Frequently asked questions about poker."
+        name="Elevate Your
+Online Poker Experience"
+        title="Discover the best of online poker with Natural8 India, featuring exciting games, special app features, game-enhancing tools, and more."
       />
       <ImgAndSideContent />
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-10">
