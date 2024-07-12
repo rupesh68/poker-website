@@ -9,6 +9,10 @@ const images = [
   "/pokerimages2/cardimg3.jpg",
   "/pokerimages2/cardimg4.jpg",
   "/pokerimages2/cardimg5.jpg",
+  "/pokerimages2/cardimg6.jpg",
+  "/pokerimages2/cardimg7.jpg",
+  "/pokerimages2/cardimg2.jpg",
+  "/public/pokerimages2/Poker Casino - Made with PosterMyWall.mp4",
 ];
 export default function Card() {
   useEffect(() => {
@@ -33,7 +37,7 @@ export default function Card() {
   }, []);
 
   return (
-    <div className="pb-10 bg-gradient-to-b from-[#545454] to-[#000000] ">
+    <div className="pb-10  ">
       <main className="max-w-4xl mx-auto  mt-[-40px] ">
         <div className="glide-03 relative w-full">
           <div className="overflow-hidden" data-glide-el="track">
@@ -41,6 +45,27 @@ export default function Card() {
               {images.map((image, index) => (
                 <li key={index}>
                   <div className="relative max-w-xs h-72 overflow-hidden bg-cover bg-no-repeat bg-black/100">
+                    {/* #if string[-4:-1]=="mp4" */}
+                    {/* {image.includes(".mp4") == true && (
+                      <video
+                        src={image}
+                        className="max-w-xs h-96 transition duration-300 ease-in-out hover:scale-110"
+                        style={{
+                          opacity: 0.8,
+                          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.3)",
+                        }}
+                        autoPlay
+                        muted
+                        loop
+                        playsInline
+                      />
+                    )}
+                    {image.includes(".mp4") == false && (
+                      <picture>
+                        <img src={image} alt="" />
+                      </picture>
+                    )} */}
+
                     <picture>
                       <img
                         src={image}

@@ -4,28 +4,28 @@ const PokerNewsList = [
   {
     head: "Aug 18",
     title: "Cristiano Ronaldo of Juventus FC looks dejected during the...",
-    imageUrl: "/pokerimages2/markus-spiske-QOuHmf0_qqk-unsplash.jpg",
+    imageUrl: "/pokerimages2/card1.jpg",
   },
   {
     head: "Aug 18",
     title: "Cristiano Ronaldo of Juventus FC looks dejected during the...",
-    imageUrl: "/pokerimages2/markus-spiske-QOuHmf0_qqk-unsplash.jpg",
+    imageUrl: "/pokerimages2/cardimg1.jpg",
   },
   {
     head: "Aug 18",
     title: "Cristiano Ronaldo of Juventus FC looks dejected during the...",
-    imageUrl: "/pokerimages2/markus-spiske-QOuHmf0_qqk-unsplash.jpg",
+    imageUrl: "/pokerimages2/cardimg2.jpg",
   },
 
   {
     head: "Aug 18",
     title: "Cristiano Ronaldo of Juventus FC looks dejected during the...",
-    imageUrl: "/pokerimages2/markus-spiske-QOuHmf0_qqk-unsplash.jpg",
+    imageUrl: "/pokerimages2/card1.jpg",
   },
   {
     head: "Aug 18",
     title: "Cristiano Ronaldo of Juventus FC looks dejected during the...",
-    imageUrl: "/pokerimages2/markus-spiske-QOuHmf0_qqk-unsplash.jpg",
+    imageUrl: "/pokerimages2/cardimg4.jpg",
   },
 ];
 
