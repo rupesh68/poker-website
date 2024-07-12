@@ -2,29 +2,28 @@ import Link from "next/link";
 
 const PokerNewsList = [
   {
-    head: "Aug 18",
-    title: "Cristiano Ronaldo of Juventus FC looks dejected during the...",
+    head: "July 12",
+    title: "World Series of Poker 2024: Highlights and Key Moments",
     imageUrl: "/pokerimages2/card1.jpg",
   },
   {
-    head: "Aug 18",
-    title: "Cristiano Ronaldo of Juventus FC looks dejected during the...",
+    head: "July 11",
+    title: "Top 10 Poker Hands of the Week: Expert Analysis",
     imageUrl: "/pokerimages2/cardimg1.jpg",
   },
   {
-    head: "Aug 18",
-    title: "Cristiano Ronaldo of Juventus FC looks dejected during the...",
+    head: "July 10",
+    title: "How to Master Bluffing: Tips from Professional Poker Players",
     imageUrl: "/pokerimages2/cardimg2.jpg",
   },
-
   {
-    head: "Aug 18",
-    title: "Cristiano Ronaldo of Juventus FC looks dejected during the...",
+    head: "July 9",
+    title: "Online Poker Tournaments: Upcoming Events and Strategies",
     imageUrl: "/pokerimages2/card1.jpg",
   },
   {
-    head: "Aug 18",
-    title: "Cristiano Ronaldo of Juventus FC looks dejected during the...",
+    head: "July 8",
+    title: "The Evolution of Poker: From Saloon Games to Global Phenomenon",
     imageUrl: "/pokerimages2/cardimg4.jpg",
   },
 ];

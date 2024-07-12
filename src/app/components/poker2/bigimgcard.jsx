@@ -20,7 +20,7 @@ export default function BigImgCard() {
         <h2 className="text-lg font-bold">Poker Strategies</h2>
         <p className="text-sm">
           Dive into the world of poker with expert strategies, tips, and
-          insights to up your game. Whether you're a beginner or a pro, stay
+          insights to up your game. Whether you are a beginner or a pro, stay
           ahead of the competition with our in-depth guides and articles.
         </p>
       </div>

@@ -1,11 +1,11 @@
 import Gallary from "./gallary";
 import Heading from "./heading";
 
-export default function Section5() {
+export default function GallarySection() {
   return (
     <main>
       <Heading
-        name="Gallary Section"
+        name="Poker Gallary"
         title="Play poker with our exclusive gaming cards."
       />
 

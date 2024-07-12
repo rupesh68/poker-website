@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const images = [
   "/pokerimages2/gallary2img5.jpg",
   "/pokerimages2/gallary2img2.jpg",
@@ -11,7 +13,7 @@ export default function Gallary2() {
     <div className="py-4 px-2 mx-auto max-w-screen-xl sm:py-4 lg:px-6">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-4 h-full">
         <div className="col-span-2 sm:col-span-1 md:col-span-2  h-auto md:h-full flex flex-col">
-          <a
+          <Link
             href=""
             className="group relative flex flex-col overflow-hidden  px-4 pb-4 pt-40 flex-grow"
           >
@@ -27,10 +29,10 @@ export default function Gallary2() {
             <h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
               Casino
             </h3>
-          </a>
+          </Link>
         </div>
         <div className="col-span-2 sm:col-span-1 md:col-span-2">
-          <a
+          <Link
             href=""
             className="group relative flex flex-col overflow-hidden  px-4 pb-4 pt-40 mb-4"
           >
@@ -45,9 +47,9 @@ export default function Gallary2() {
             <h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
               Cards
             </h3>
-          </a>
+          </Link>
           <div className="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
-            <a
+            <Link
               href=""
               className="group relative flex flex-col overflow-hidden  px-4 pb-4 pt-40"
             >
@@ -63,8 +65,8 @@ export default function Gallary2() {
               <h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
                 Poker
               </h3>
-            </a>
-            <a
+            </Link>
+            <Link
               href=""
               className="group relative flex flex-col overflow-hidden  px-4 pb-4 pt-40"
             >
@@ -77,11 +79,11 @@ export default function Gallary2() {
               </picture>
               <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
               <h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl"></h3>
-            </a>
+            </Link>
           </div>
         </div>
         <div className="col-span-2 sm:col-span-1 md:col-span-1 h-auto md:h-full flex flex-col">
-          <a
+          <Link
             href=""
             className="group relative flex flex-col overflow-hidden px-4 pb-4 pt-40 flex-grow"
           >
@@ -94,7 +96,7 @@ export default function Gallary2() {
             </picture>
             <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
             <h3 className="z-10 text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl"></h3>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
