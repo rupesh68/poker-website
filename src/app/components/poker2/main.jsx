@@ -11,7 +11,7 @@ import GallarySection from "./GallarySection";
 export default function Main2() {
   return (
     <>
-      <div className="bg-clip-text bg-gradient-to-r from-fuchsia-500 via-zinc-700 to-yellow-500">
+      <div className="bg-gradient-to-r from-violet-800 via-zinc-900 to-yellow-400">
         
         <HeroVideo />
         <Section2 />
