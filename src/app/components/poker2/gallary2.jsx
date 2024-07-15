@@ -31,6 +31,7 @@ export default function Gallary2() {
             </h3>
           </Link>
         </div>
+
         <div className="col-span-2 sm:col-span-1 md:col-span-2">
           <Link
             href=""
@@ -82,6 +83,7 @@ export default function Gallary2() {
             </Link>
           </div>
         </div>
+
         <div className="col-span-2 sm:col-span-1 md:col-span-1 h-auto md:h-full flex flex-col">
           <Link
             href=""
