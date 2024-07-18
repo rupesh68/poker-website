@@ -23,6 +23,7 @@ export default function BigImgCard() {
           insights to up your game. Whether you are a beginner or a pro, stay
           ahead of the competition with our in-depth guides and articles.
         </p>
+        <div>h</div>
       </div>
     </div>
   );
