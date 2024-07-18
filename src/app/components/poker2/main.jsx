@@ -7,6 +7,9 @@ import GameInfoSection from "./GameInfoSection";
 import FeatureSection from "./FeatureSection";
 import Gallary2 from "./gallary2";
 import GallarySection from "./GallarySection";
+import ImgDance from "./imgDance";
+import Banner from "./banner";
+import Footer from "./footer";
 
 export default function Main2() {
   return (
@@ -21,7 +24,10 @@ export default function Main2() {
         <NewsSection />
         <GallarySection />
         <ComapnySection />
-        <FaqSection />
+        <FaqSection /> 
+        <ImgDance/>
+        {/* <Banner/> */}
+        <Footer/>
       </div>
     </>
   );
